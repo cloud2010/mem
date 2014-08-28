@@ -1,0 +1,115 @@
+<?php
+
+get_header('meta');
+get_header();
+?>
+<!--首页小横栏 -->
+<!-- <div class="heading-top">
+<img src="<?php bloginfo('template_url'); ?>/static/img/gonggao.gif" style="vertical-align: middle;margin-bottom: 3px;border:0"/> 官方反馈交流 QQ 群：121235751 ，欢迎加入！新版本将第一时间在Q群发布。
+  主题下载：<a href="http://t.cn/8knzKcZ">http://t.cn/8knzKcZ</a>
+</div> -->
+<!-- Main Container -->
+<div id="body-wrapper" class="body-wraper-path">
+ <!-- Content -->
+    <div id="content_main" class="container clearfix">
+
+        <!-- Slider -->
+        <div id="main-slider" class="flexslider">
+            <ul class="slides">
+            <?php echo get_banner_slide(); ?>
+            </ul>
+
+        </div>
+        <!-- <div class="has-line"></div> -->
+        <!-- /Slider -->
+
+        <!-- main-services -->
+        <div class="main-services">
+            <div id="list-main-services">
+                <dl>
+                    <?php echo get_main_servives_list(); ?>
+                </dl>
+            </div>
+        
+            
+            <div id="right-content">
+                <ul>
+                  <?php echo get_main_services_post(); ?>
+                </ul>
+            </div>
+            
+           
+            <div class="has-line"></div>
+            <div class="clear"></div>
+      </div>
+        <!-- Project Carousel -->
+<!--         <div id="project-wrapper" class="clearfix">
+
+            <div class="section-title one-fourth">
+                <h4>最新图文</h4>
+                <p>这里汇集了我们网站最新的图文页面，你可以点击查阅详细！</p>
+                <p><a href="javascript:void(0)">查看更多</a></p>
+                <div class="carousel-nav">
+                    <a id="project-prev" class="jcarousel-prev" href="javascript:void(0)" title="上一页"></a>
+                    <a id="project-next" class="jcarousel-next" href="javascript:void(0)" title="下一页"></a>
+                </div>
+            </div>
+
+            <ul class="project-carousel">
+                <?php
+                global $query_string;
+                query_posts($query_string.'&showposts=100&caller_get_posts=1');
+                $i = 0;
+                if (have_posts()){
+                    while (have_posts()){
+                        the_post();
+                        $content = $post->post_content;
+                        $searchimages = '~<img [^>]* />~';
+                        preg_match_all( $searchimages, $content, $pics );
+                        $iNumberOfPics = count($pics[0]);
+                        if ( $iNumberOfPics > 0 && $i <6) {
+                          echo "<li><a href='";
+                          echo the_permalink();
+                          echo "' title='' class='project-item'><div class='project-image' style='background-image:url(";
+                          echo catch_that_image();
+                          echo ")' alt='";
+                          echo the_title();
+                          echo "'></div><div class='overlay'><h5>";
+                          echo strip_tags(the_excerpt());
+                          echo "</h5><p>";
+                          echo the_title();
+                          echo "</p></div> </a></li>\n";
+                          $i ++;
+                        }
+                    }
+                }
+                ?>
+            </ul>
+            <div class="has-line" style="margin-top: 50px;"></div>
+        </div> -->
+        <!-- /Project Carousel -->
+
+        <!-- Blog Carousel -->
+        <!-- <div id="blog-wrapper" class="clearfix">
+
+            <div class="section-title one-fourth">
+                <h4>最新动态</h4>
+                <p>上海海事大学工程管理硕士（MEM）招生信息</p>
+                <p><a href="javascript:void(0)">查看更多</a></p>
+                <div class="carousel-nav">
+                    <a id="blog-prev" class="jcarousel-prev" href="javascript:void(0)" title="上一页"></a>
+                    <a id="blog-next" class="jcarousel-next" href="javascript:void(0)" title="下一页"></a>
+                </div>
+            </div>
+
+            <ul class="blog-carousel">
+            <?php echo simple_get_most_viewed(); ?>
+            </ul>
+        </div> -->
+        <!-- /Blog Carousel -->
+
+    </div>
+    <!-- /Content -->
+<?php
+get_footer();
+?>
