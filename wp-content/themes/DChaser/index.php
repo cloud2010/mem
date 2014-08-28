@@ -38,71 +38,7 @@ get_header();
             <div class="has-line"></div>
             <div class="clear"></div>
       </div>
-        <!-- Project Carousel -->
-<!--         <div id="project-wrapper" class="clearfix">
-
-            <div class="section-title one-fourth">
-                <h4>最新图文</h4>
-                <p>这里汇集了我们网站最新的图文页面，你可以点击查阅详细！</p>
-                <p><a href="javascript:void(0)">查看更多</a></p>
-                <div class="carousel-nav">
-                    <a id="project-prev" class="jcarousel-prev" href="javascript:void(0)" title="上一页"></a>
-                    <a id="project-next" class="jcarousel-next" href="javascript:void(0)" title="下一页"></a>
-                </div>
-            </div>
-
-            <ul class="project-carousel">
-                <?php
-                global $query_string;
-                query_posts($query_string.'&showposts=100&caller_get_posts=1');
-                $i = 0;
-                if (have_posts()){
-                    while (have_posts()){
-                        the_post();
-                        $content = $post->post_content;
-                        $searchimages = '~<img [^>]* />~';
-                        preg_match_all( $searchimages, $content, $pics );
-                        $iNumberOfPics = count($pics[0]);
-                        if ( $iNumberOfPics > 0 && $i <6) {
-                          echo "<li><a href='";
-                          echo the_permalink();
-                          echo "' title='' class='project-item'><div class='project-image' style='background-image:url(";
-                          echo catch_that_image();
-                          echo ")' alt='";
-                          echo the_title();
-                          echo "'></div><div class='overlay'><h5>";
-                          echo strip_tags(the_excerpt());
-                          echo "</h5><p>";
-                          echo the_title();
-                          echo "</p></div> </a></li>\n";
-                          $i ++;
-                        }
-                    }
-                }
-                ?>
-            </ul>
-            <div class="has-line" style="margin-top: 50px;"></div>
-        </div> -->
-        <!-- /Project Carousel -->
-
-        <!-- Blog Carousel -->
-        <!-- <div id="blog-wrapper" class="clearfix">
-
-            <div class="section-title one-fourth">
-                <h4>最新动态</h4>
-                <p>上海海事大学工程管理硕士（MEM）招生信息</p>
-                <p><a href="javascript:void(0)">查看更多</a></p>
-                <div class="carousel-nav">
-                    <a id="blog-prev" class="jcarousel-prev" href="javascript:void(0)" title="上一页"></a>
-                    <a id="blog-next" class="jcarousel-next" href="javascript:void(0)" title="下一页"></a>
-                </div>
-            </div>
-
-            <ul class="blog-carousel">
-            <?php echo simple_get_most_viewed(); ?>
-            </ul>
-        </div> -->
-        <!-- /Blog Carousel -->
+        
 
     </div>
     <!-- /Content -->
