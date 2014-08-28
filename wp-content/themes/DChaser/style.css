@@ -339,12 +339,9 @@ textarea {
 }
 #sidebar {
     /*float: left;*/
-    /*float: left;*/
     /*width: 220px;*/
-    margin-left: 70%;
-    /*width: 20%;*/
-    /*margin-right: -12px;*/
-    /*margin-top: 5%;*/
+    margin-left: 71%;
+    width: auto;
 }
 .search {
     /*width: 115px!important;*/
@@ -1215,11 +1212,12 @@ ul.compressed li:first-child {
     background: url(static/img/blog_icon_comments.png) no-repeat 0 18px
 }
 #post_list .title {
-    font-size: 20px;
+    font-size: 24px;
     color: #333;
     height: 30px;
-    overflow: hidden;
-    width: 620px;
+    /*overflow: hidden;*/
+    text-align: center;
+    /*width: 620px;*/
     border-bottom: 1px dashed #e5e5e5;
     margin-bottom: 0!important
 }
@@ -1475,7 +1473,7 @@ ul.compressed li:first-child {
 .single_list .title {
     margin: 0;
     padding-bottom: 15px;
-
+    text-align: center;
     border-bottom: 1px dashed #e5e5e5
 }
 .single_listl {
@@ -1854,7 +1852,7 @@ ul.commentlist li {
 
 .menu-side-container, .menu-side2-container, .menu-side3-container,.menu-side4-container,.menu-side5-container{
     border: 1px solid #e7e7e7;
-    float: right;
+    float: left;
     margin: 0 0 8px;
     overflow: hidden;
     padding: 10px;
@@ -1869,7 +1867,7 @@ ul.commentlist li {
     padding: 10px;
     background: #FFF url(static/img/tab_bg.gif) repeat-x 1px top;
     overflow: hidden;
-    float: right;
+    float: left;
 }
 .widget h3 {
     font-weight: 700;

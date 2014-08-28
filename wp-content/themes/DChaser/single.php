@@ -29,16 +29,7 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="divleft">
-                <div class="single_list">本文固定链接：<a href="<?php the_permalink() ?>" title="<?php the_title(); ?>" rel="bookmark"><?php the_permalink() ?></a></div></div> 
-            <div class="divleft">
-                <div class="single_list"><div class="content_tx"><?php echo get_avatar( get_the_author_email(), '80' ); ?></div><div class="content_sm">本文章由 <a href="<?php bloginfo('siteurl'); ?>/"><strong><?php the_author() ?></strong></a> 于<?php the_time('Y年m月d日') ?>发布在<?php the_category(', ') ?>分类下，<?php if (('open' == $post-> comment_status) && ('open' == $post->ping_status)) {?>您可以<a href="#respond">发表评论</a>，并在保留<a href="<?php the_permalink() ?>" rel="bookmark">原文地址</a>及作者的情况下<a href="<?php trackback_url(); ?>" rel="trackback">引用</a>到你的网站或博客。
-                <?php } elseif (('open' == $post-> comment_status) && !('open' == $post->ping_status)) { ?>
-                通告目前不可用，你可以至底部留下评论。
-                <?php } ?><br/>
-                转载请注明：<a href="<?php the_permalink() ?>" rel="bookmark" title="本文固定链接 <?php the_permalink() ?>"><?php the_title(); ?>-<?php bloginfo('name');?></a>
-                <br/>
-                <?php the_tags('关键字：', ', ', ''); ?></div></div></div> -->
+            
             <div class="divleft">
                 <div class="single_list"><div class="single_listl"><?php  if (get_next_post()) {next_post_link('%link'); } else { echo "已经最新的文章！"; }; ?></div>
                 <div class="single_listr"><?php  if (get_previous_post()) {previous_post_link('%link'); } else { echo "后面已经没有文章了"; }; ?></div></div></div>
@@ -66,11 +57,7 @@
                  </div> 
                  </div>       
 
-                <!-- <div class="rand-article">
-                    <div class="textlist_s"><h2>真的，我想您也会喜欢</h2>
-                    <div class="hr-line"></div><ul><?php include("lib/Get_Related_Post.php"); ?></ul></div></div>
-                    <div class="rand-article"><div class="textlist_s"><h2>随便找了点看您喜欢不</h2>
-                    <div class="hr-line"></div><ul><?php Get_Random_Post(); ?></ul></div></div> -->
+                
                 <!-- /Post -->
   <?php //comments_template('', true); ?>
     <?php endwhile; ?>
