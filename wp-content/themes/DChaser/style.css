@@ -2082,11 +2082,12 @@ a.zy_subnavs:active {
 }
 #footer .friends-ul li {
     /*width: 40%;*/
-    float: left;
+    /*float: left;*/
+    display: block;
     margin-right: 20px;
     margin-bottom: 10px;
     height: 20px;
-    overflow: hidden
+    /*overflow: hidden*/
 }
 .flex-container a:active, .flex-container a:focus, .flexslider a:active, .flexslider a:focus {
     outline: 0
