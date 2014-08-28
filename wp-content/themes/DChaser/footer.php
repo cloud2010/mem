@@ -72,9 +72,6 @@
 
     </div>
     <!-- /Footer -->
-<?php
-wp_footer();
-do_action('gk_show_debug');//显示调试信息
-?>
+
 </body>
 </html>
