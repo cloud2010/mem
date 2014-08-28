@@ -342,6 +342,9 @@ textarea {
     /*width: 220px;*/
     margin-left: 71%;
     width: auto;
+    *margin-left: 10px;
+    *float: right;
+    *width: 28%;
 }
 .search {
     /*width: 115px!important;*/
@@ -372,8 +375,8 @@ textarea {
 
 .main-services #list-main-services {
     background: #EBEBEB;
-    /*width: auto;*/
-    width: 320px;
+    width: auto;
+    *width: 330px;
     height: 300px;
     float: left;
     /*margin-left: 100px;*/
@@ -381,8 +384,9 @@ textarea {
 }
 
 #right-content {
-    /*float: left;*/
-    margin-left: 330px;
+    float: left;
+    *float: none;
+    *margin-left: 340px;
     width: 70%;
 }
 .main-services #list-main-services dl {
@@ -1853,8 +1857,9 @@ ul.commentlist li {
 .menu-side-container, .menu-side2-container, .menu-side3-container,.menu-side4-container,.menu-side5-container{
     border: 1px solid #e7e7e7;
     float: left;
+    *float: none;
     margin: 0 0 8px;
-    overflow: hidden;
+    /*overflow: hidden;*/
     padding: 10px;
     width: 90%;
 }
@@ -1866,8 +1871,9 @@ ul.commentlist li {
     width: 90%;
     padding: 10px;
     background: #FFF url(static/img/tab_bg.gif) repeat-x 1px top;
-    overflow: hidden;
+    /*overflow: hidden;*/
     float: left;
+    *float: none;
 }
 .widget h3 {
     font-weight: 700;

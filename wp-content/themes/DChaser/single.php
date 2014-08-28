@@ -63,6 +63,7 @@
     <?php endwhile; ?>
         <?php endif; ?>	
         </div>
+        
         <!-- /Main Content -->
     <?php get_sidebar(); ?> 
 
