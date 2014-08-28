@@ -375,7 +375,8 @@ textarea {
 
 .main-services #list-main-services {
     background: #EBEBEB;
-    width: auto;
+    /*width: auto;*/
+    width: 320px;
     height: 300px;
     float: left;
     /*margin-left: 100px;*/
@@ -1214,7 +1215,7 @@ ul.compressed li:first-child {
     background: url(static/img/blog_icon_comments.png) no-repeat 0 18px
 }
 #post_list .title {
-    font-size: 16px;
+    font-size: 20px;
     color: #333;
     height: 30px;
     overflow: hidden;
@@ -1232,10 +1233,15 @@ ul.compressed li:first-child {
     text-align: right
 }
 #post_list span a, .single_list span a {
-    font-size: 20px;
+    font-size: 20px !important;
     color: #e75814;
     margin-right: 6px
 }
+.single_list p {
+    font-family: 宋体，微软雅黑;
+    font-size: 20px;
+}
+
 #post_list h2 a {
     color: #6da336
 }
@@ -1256,7 +1262,9 @@ ul.compressed li:first-child {
     /*float: right;*/
     /*width: 570px;*/
     height: 100px;
-    margin: 12px 0 6px
+    margin: 12px 0 6px;
+    font-family: 宋体,微软雅黑;
+    font-size: 20px;
 }
 #post_list_tags {
     margin-bottom: 12px;
@@ -1268,12 +1276,14 @@ ul.compressed li:first-child {
     float: left
 }
 #post_list_more {
-    margin-bottom: 12px;
+   /* margin-bottom: 10px;*/
+    margin-top: 30px;
     float: right;
     text-align: center;
     height: 26px;
     line-height: 26px;
-    width: 68px
+    width: 68px;
+    font-size:15px;
 }
 #post_list_more a {
     color: #fff
@@ -1459,6 +1469,9 @@ ul.compressed li:first-child {
     float: left;
     overflow: hidden
 }
+
+
+
 .single_list .title {
     margin: 0;
     padding-bottom: 15px;
