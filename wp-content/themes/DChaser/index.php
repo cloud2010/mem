@@ -38,6 +38,8 @@ get_header();
             <div class="has-line"></div>
             <div class="clear"></div>
       </div>
+
+      <div class="clear"></div>
         
 
     </div>
