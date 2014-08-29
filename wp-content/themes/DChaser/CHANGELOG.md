@@ -1,3 +1,8 @@
+## 1.4 / Fri Aug 29 2014
+
+* 修订样式
+* 调整Style.css index.php single.php footer.php
+
 ## 1.3 / Sat Feb 15 2014
 
 > functions.php 感染木马，目前已删除，感谢@landu 提醒
