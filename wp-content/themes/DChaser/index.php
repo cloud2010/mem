@@ -5,9 +5,9 @@ get_header();
 ?>
 
 <!-- Main Container -->
-<div id="body-wrapper" class="body-wraper-path">
+<div id="body-wrapper">
  <!-- Content -->
-    <div id="content_main" class="container clearfix">
+    <div id="content_main">
 
         <!-- Slider -->
         <div id="main-slider" class="flexslider">
@@ -33,9 +33,6 @@ get_header();
                   <?php echo get_main_services_post(); ?>
                 </ul>
             </div>
-            
-           
-            <div class="has-line"></div>
             <div class="clear"></div>
       </div>
     </div>

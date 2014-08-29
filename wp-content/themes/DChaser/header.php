@@ -1,5 +1,5 @@
     <!-- Header -->
-    <div id="header" class="container clearfix">
+    <div id="header">
 
         <div id="header-container">
 
@@ -22,12 +22,6 @@
                  ?>
                                          
             <!-- /Navigation -->
-
-            <select id="responsive-main-nav-menu" onchange="javascript:window.location.replace(this.value);"></select>
-            
-           <!--  <div class="top_search">           
-                <?php  if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('top-search') ); ?>
-            </div> -->
         </div>
     </div>
     <!-- /Header -->

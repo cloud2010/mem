@@ -2,7 +2,7 @@
     <!-- /Main Container -->
     <!-- Footer -->
     <div id="footer">
-        <div class="container">
+        <div>
             <div class="footer-content">
                 <!-- About -->
                 <div class="one-fourth link-path">
@@ -60,7 +60,7 @@
                 
             </div>
 
-            <div class="info clearfix link-path">
+            <div class="info link-path">
                 <!-- Copyright -->
                 <ul class="copyright">
                     <li>Copyright &copy; 2014 <strong><a href="<?php bloginfo('siteurl'); ?>/"><?php bloginfo('name');?></a></strong> . All rights reserved</li>
@@ -76,6 +76,7 @@
 
     </div>
     <!-- /Footer -->
+    <div class="clear"></div>
 
 </body>
 </html>

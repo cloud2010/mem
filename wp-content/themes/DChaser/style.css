@@ -23,7 +23,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     display: block
 }
 body {
-    line-height: 1
+    line-height: 1;
+    display: block;
 }
 abbr[title], dfn[title] {
     border-bottom: 1px dotted;
@@ -217,13 +218,13 @@ textarea {
     right: 50px;
     bottom: 100px;
     _bottom: "auto";
-    width: 43px;
-    height: 43px;
+    width: 60px;
+    height: 60px;
     cursor: pointer;
     background: url(static/img/ico-gotop.png) no-repeat
 }
 .backToTop:hover {
-    background-position: 0 -43px
+    background-position: -70px 0;
 }
 .hr-line {
     height: 11px;
@@ -246,7 +247,7 @@ textarea {
     -webkit-box-shadow: 0 1px 6px #EEE
 }
 .container {
-    margin: 0 20px;
+    /*margin: 0 20px;*/
     /*padding: 0 30px;*/
     padding: 0 auto;
     position: relative;
@@ -370,6 +371,7 @@ textarea {
 .main-services {
     /*margin-top: 50px;*/
     margin:0 auto;
+    margin-bottom: 20px;
     width: 80%;
 }
 
@@ -1245,7 +1247,7 @@ ul.compressed li:first-child {
     margin-right: 6px
 }
 .single_list p {
-    font-family: 宋体，微软雅黑;
+    font-family: "方正小标宋_GBK", "华文中宋", "宋体", "微软雅黑";
     font-size: 20px;
 }
 
@@ -1270,8 +1272,8 @@ ul.compressed li:first-child {
     /*width: 570px;*/
     height: 100px;
     margin: 12px 0 6px;
-    font-family: 宋体,微软雅黑;
-    font-size: 20px;
+    font-family: "方正小标宋_GBK", "华文中宋", "宋体", "微软雅黑";
+    font-size: 16px;
 }
 #post_list_tags {
     margin-bottom: 12px;
