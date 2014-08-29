@@ -30,9 +30,12 @@
                 </div>
             </div>
             
-            <div class="divleft">
-                <div class="single_list"><div class="single_listl"><?php  if (get_next_post()) {next_post_link('%link'); } else { echo "已经最新的文章！"; }; ?></div>
-                <div class="single_listr"><?php  if (get_previous_post()) {previous_post_link('%link'); } else { echo "后面已经没有文章了"; }; ?></div></div></div>
+            <!-- <div class="divleft">
+                <div class="single_list">
+                    <div class="single_listl"><?php  if (get_next_post()) {next_post_link('%link'); } else { echo "已经最新的文章！"; }; ?></div>
+                    <div class="single_listr"><?php  if (get_previous_post()) {previous_post_link('%link'); } else { echo "后面已经没有文章了"; }; ?></div>
+                </div>
+            </div> -->
             <div class="divleft">
                 <div class="single_list">
                 <h2 class="bdshare-title">分享</h2>

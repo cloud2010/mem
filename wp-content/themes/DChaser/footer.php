@@ -2,7 +2,7 @@
     <!-- /Main Container -->
     <!-- Footer -->
     <div id="footer">
-        <div class="container clearfix">
+        <div class="container">
             <div class="footer-content">
                 <!-- About -->
                 <div class="one-fourth link-path">
