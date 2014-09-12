@@ -406,6 +406,7 @@ textarea {
     font-size: 20px; 
     line-height: 1;
     padding: 10px 10px 5px;
+    color: #666;
 }
 
 .main-services #list-main-services dd {
@@ -453,9 +454,9 @@ textarea {
     margin-bottom: 10px
 }
 .main-services ul li h4 {
-    color: #333;
-    font-size: 20px;
-    font-weight: bold;
+    color: #555;
+    font-size: 24px;
+    font-weight: 400;
     line-height: 31px;
     margin-bottom: 10px
 }
@@ -465,6 +466,8 @@ textarea {
 
 .main-services li a{
     font-size: 16px;
+    font-weight: 200px;
+    color: #777;
 }
 .page-title, .page-title-alt, .page-title-inner {
     color: #c2c2c2;
@@ -2157,8 +2160,8 @@ html[xmlns] .slides {
 }
 .flexslider .slides {
     margin-top: -1px !important;
-    margin-right: -20px !important;
-    margin-left: -20px !important;
+    /*margin-right: -20px !important;
+    margin-left: -20px !important;*/
     zoom: 1
 }
 .flex-direction-nav a {
@@ -2174,12 +2177,12 @@ html[xmlns] .slides {
 }
 .flex-direction-nav .flex-next {
     background: #f0f0f0 url(static/img/s_icon_next.png) no-repeat 50% 50%;
-    right: -50px;
+    right: -30px;
 
 }
 .flex-direction-nav .flex-prev {
     background: #f0f0f0 url(static/img/s_icon_prev.png) no-repeat 50% 50%;
-    left: -50px;
+    left: -30px;
 }
 .flexslider:hover .flex-next, .flexslider:hover .flex-prev {
     opacity: 1
@@ -2338,12 +2341,12 @@ ul.sf-menu li li li.sfHover ul, ul.sf-menu li li li:hover ul {
     /*margin-left: 40px;*/
 }
 .sf-menu>li>a {
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 35px;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 30px;
     /*border-top: 1px solid #fff;*/
-    height: 62px;
-    padding: 37px 15px 0;
+    height: 58px;
+    padding: 35px 15px 0;
     text-transform: uppercase;
     color: white !important;
 }
@@ -2387,8 +2390,8 @@ ul.sf-menu li li li.sfHover ul, ul.sf-menu li li li:hover ul {
     behavior: url(js/PIE.htc)*/
 }
 .sf-menu li li a {
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 300;
     /*color: #999;*/
     color: white;
     text-shadow: none;
@@ -2561,7 +2564,7 @@ ul.sf-menu li li li.sfHover ul, ul.sf-menu li li li:hover ul {
 li.jcarousel-item .date {display:none}
 
 
-.menu {	
+.menu { 
     /*margin: 0 0 8px;*/
     /*border: 1px solid #e7e7e7;*/
     margin: 0 auto;
