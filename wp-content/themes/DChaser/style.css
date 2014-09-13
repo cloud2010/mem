@@ -75,23 +75,19 @@ table {
     visibility: hidden;
     width: 0
 }
-
 #content_main {
     width: 100%;
     margin: 0 auto
 }
-
 #content {
     width: 80%;
     margin: 0 auto
 }
-
 .clearfix {
     width: 80%;
     margin: 0 auto;
-    padding:10px;
+    padding: 10px;
 }
-
 .clearfix:after {
     clear: both;
     content: ' ';
@@ -105,7 +101,7 @@ table {
 * html .clearfix, :first-child+html .clearfix {
     zoom: 1
 }
-html,body {
+html, body {
     height: 100%;
 }
 body {
@@ -236,7 +232,7 @@ textarea {
 #body-wrapper {
     /*width: 1040px;*/
     width: 100%;
-    margin:0 auto;
+    margin: 0 auto;
     min-height: 50%;
 }
 .body-wraper-path {
@@ -293,10 +289,9 @@ textarea {
     margin-bottom: 10px;
     *z-index: 9999
 }
-
 #header-container {
-    width:80%; 
-    margin:0 auto; 
+    width: 80%;
+    margin: 0 auto;
     height: 140px;
 }
 #logo {
@@ -354,7 +349,6 @@ textarea {
     margin-top: 5px;
     margin-bottom: 0!important
 }
-
 .search-btn {
     float: right;
     /*width: 55px;*/
@@ -367,14 +361,12 @@ textarea {
     *margin-top: 5px;
     padding: 0!important
 }
-
 .main-services {
     /*margin-top: 50px;*/
-    margin:0 auto;
+    margin: 0 auto;
     margin-bottom: 20px;
     width: 80%;
 }
-
 .main-services #list-main-services {
     background: #EBEBEB;
     width: auto;
@@ -385,7 +377,6 @@ textarea {
     /*margin-left: 100px;*/
     margin-top: 20px;
 }
-
 #right-content {
     float: left;
     *float: none;
@@ -394,43 +385,35 @@ textarea {
     /*width: 70%;*/
 }
 .main-services #list-main-services dl {
-
     background: #EBEBEB;
     height: 100%;
     position: relative;
-    
 }
-
-.main-services #list-main-services dt h2 { 
+.main-services #list-main-services dt h2 {
     background: #E5E5E5;
-    font-size: 20px; 
+    font-size: 20px;
     line-height: 1;
     padding: 10px 10px 5px;
     color: #666;
 }
-
 .main-services #list-main-services dd {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
     font-size: 16px;
 }
-
-.main-services #list-main-services dd h4{
-    white-space:nowrap;
-    text-overflow:ellipsis;
-    -o-text-overflow:ellipsis;
-    overflow-x: hidden; 
+.main-services #list-main-services dd h4 {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow-x: hidden;
 }
-
 #more {
-   /*position:relative;*/
-   /*bottom: 20px;*/
-   /*left: 50%;*/
-   float: right;
-
+    /*position:relative;*/
+    /*bottom: 20px;*/
+    /*left: 50%;*/
+    float: right;
 }
-
 .main-services ul {
     /*overflow: hidden;*/
     padding-bottom: 40px;
@@ -438,8 +421,7 @@ textarea {
     float: left;
     margin-left: 50px;
     margin-top: 20px;
-    word-wrap:break-word; 
-
+    word-wrap: break-word;
 }
 .main-services ul li {
     float: left;
@@ -463,8 +445,7 @@ textarea {
 .main-services .last {
     margin-right: 0!important
 }
-
-.main-services li a{
+.main-services li a {
     font-size: 16px;
     font-weight: 200px;
     color: #777;
@@ -1253,7 +1234,6 @@ ul.compressed li:first-child {
     font-family: "方正小标宋_GBK", "华文中宋", "宋体", "微软雅黑";
     font-size: 20px;
 }
-
 #post_list h2 a {
     color: #6da336
 }
@@ -1288,14 +1268,14 @@ ul.compressed li:first-child {
     float: left
 }
 #post_list_more {
-   /* margin-bottom: 10px;*/
+    /* margin-bottom: 10px;*/
     margin-top: 30px;
     float: right;
     text-align: center;
     height: 26px;
     line-height: 26px;
     width: 68px;
-    font-size:15px;
+    font-size: 15px;
 }
 #post_list_more a {
     color: #fff
@@ -1460,7 +1440,7 @@ ul.compressed li:first-child {
     /*width: 820px;*/
     width: 70%;
     /*margin-left: -12px;*/
-/*  margin-left: 30%;
+    /*  margin-left: 30%;
     margin-top: 1%;*/
 }
 .divleft {
@@ -1472,7 +1452,6 @@ ul.compressed li:first-child {
     border: 1px solid #e7e7e7;
     margin-bottom: 8px;
     overflow: hidden;
-    
 }
 .single_list {
     padding: 12px;
@@ -1481,9 +1460,6 @@ ul.compressed li:first-child {
     float: left;
     overflow: hidden
 }
-
-
-
 .single_list .title {
     margin: 0;
     padding-bottom: 15px;
@@ -1863,8 +1839,7 @@ ul.commentlist li {
     margin-bottom: 20px;
     min-width: 227px
 }
-
-.menu-side-container, .menu-side2-container, .menu-side3-container,.menu-side4-container,.menu-side5-container{
+.menu-side-container, .menu-side2-container, .menu-side3-container, .menu-side4-container, .menu-side5-container {
     border: 1px solid #e7e7e7;
     float: left;
     *float: none;
@@ -1873,7 +1848,6 @@ ul.commentlist li {
     padding: 10px;
     width: 90%;
 }
-
 .widget {
     margin: 0 0 8px;
     border: 1px solid #e7e7e7;
@@ -2023,17 +1997,14 @@ a.zy_subnavs:active {
     /*padding-left: 10px;*/
     height: 240px
 }
-#footer p{
+#footer p {
     font-size: 14px;
     color: white;
 }
-
 #footer .one-fourth a {
     /*color: #c2c2c2*/
     color: white;
-
 }
-
 #footer .last li {
     margin-left: -20px;
 }
@@ -2178,7 +2149,6 @@ html[xmlns] .slides {
 .flex-direction-nav .flex-next {
     background: #f0f0f0 url(static/img/s_icon_next.png) no-repeat 50% 50%;
     right: -30px;
-
 }
 .flex-direction-nav .flex-prev {
     background: #f0f0f0 url(static/img/s_icon_prev.png) no-repeat 50% 50%;
@@ -2301,7 +2271,7 @@ nav {
 }
 .sf-menu {
     line-height: 1;
-    float:left;
+    float: left;
 }
 .sf-menu ul li {
     width: 100%
@@ -2356,11 +2326,9 @@ ul.sf-menu li li li.sfHover ul, ul.sf-menu li li li:hover ul {
     /*border-top: 1px solid #221E1F;*/
     text-shadow: 0 0 0
 }
-
 .sf-menu>li.active>a {
     /*border-top: 1px solid #221E1F;*/
     color: #7E7E7C;
-
     text-shadow: 0 0 0
 }
 .sf-menu>li.sfHover>a {
@@ -2369,13 +2337,12 @@ ul.sf-menu li li li.sfHover ul, ul.sf-menu li li li:hover ul {
 }
 .sf-menu>li.sfHover, .sf-menu>li:hover {
     background: none repeat scroll 0 0 #3A5FCD;
-  /*  box-shadow: 0 1px 3px #F6F6F6 inset;
+    /*  box-shadow: 0 1px 3px #F6F6F6 inset;
     -webkit-box-shadow: 0 1px 3px #F6F6F6 inset;
     -moz-box-shadow: 0 1px 3px #F6F6F6 inset;
     behavior: url(js/PIE.htc)*/
 }
 .sf-menu ul {
-
     /*border-top: 1px solid #221E1F;*/
     position: absolute;
     z-index: 20000!important;
@@ -2384,7 +2351,7 @@ ul.sf-menu li li li.sfHover ul, ul.sf-menu li li li:hover ul {
     padding: 0;
     /*background: none repeat scroll 0 0 #FFF;*/
     background-color: #3A5FCD;
-/*  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    /*  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .3);
     -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .3);
     box-shadow: 0 1px 1px rgba(0, 0, 0, .3);
     behavior: url(js/PIE.htc)*/
@@ -2399,7 +2366,6 @@ ul.sf-menu li li li.sfHover ul, ul.sf-menu li li li:hover ul {
 }
 .sf-menu li li {
     /*border-bottom: 1px dashed #EEE*/
-
 }
 .sf-menu li li:first-child {
     background: 0 0
@@ -2409,7 +2375,7 @@ ul.sf-menu li li li.sfHover ul, ul.sf-menu li li li:hover ul {
 }
 .sf-menu li li a:hover, .sf-menu>li li.active a, .sf-menu>li li.sfHover>a {
     /*color: #666*/
-    background-color:  #104E8B;
+    background-color: #104E8B;
 }
 .sf-sub-indicator {
     background: url(img/indicator.png) no-repeat scroll 0 0 transparent;
@@ -2520,7 +2486,7 @@ ul.sf-menu li li li.sfHover ul, ul.sf-menu li li li:hover ul {
     }
 }
 #main-slider {
-/*  width: 940px;
+    /*  width: 940px;
     height: 360px;*/
     width: 80%;
     height: auto;
@@ -2530,16 +2496,12 @@ ul.sf-menu li li li.sfHover ul, ul.sf-menu li li li:hover ul {
     /*margin-top: 50px;*/
 }
 #main-slider img {
-/*  width: 940px;  
+    /*  width: 940px;  
     height: 360px;*/
     width: 100%;
     height: auto;
 }
-
-.flex-active-slide {
-}
-
-#accordion {
+.flex-active-slide {} #accordion {
     margin-top: -7px
 }
 #accordion .accordion-btn {
@@ -2559,12 +2521,10 @@ ul.sf-menu li li li.sfHover ul, ul.sf-menu li li li:hover ul {
 #accordion .accordion-open {
     background: url(static/img/accordion_buttons.png) no-repeat 0 -135px
 }
-
-
-li.jcarousel-item .date {display:none}
-
-
-.menu { 
+li.jcarousel-item .date {
+    display: none
+}
+.menu {
     /*margin: 0 0 8px;*/
     /*border: 1px solid #e7e7e7;*/
     margin: 0 auto;
@@ -2573,8 +2533,6 @@ li.jcarousel-item .date {display:none}
     /*background: #FFF url(static/img/tab_bg.gif) no-repeat 1px top;*/
     overflow: hidden
 }
-
-
 .menu li {
     font-weight: 500;
     font-size: 20px !important;
@@ -2586,7 +2544,5 @@ li.jcarousel-item .date {display:none}
     margin-bottom: 10px;
     /*margin-left: -10px;*/
     padding-left: 50px;
-
-    background: #FFF url(static/img/arrow.png) no-repeat 25px center ;
-
+    background: #FFF url(static/img/arrow.png) no-repeat 25px center;
 }
